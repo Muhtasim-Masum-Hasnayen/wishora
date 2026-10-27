@@ -1,50 +1,29 @@
-# Wishora — Birthday Website Builder
+🎂 **Introducing Wishora — A More Personal Way to Celebrate Birthdays!** 💌
 
-A responsive birthday microsite builder made with Next.js, React, TypeScript and CSS. It includes relationship-based themes, a live preview, editable birthday content, local draft saving, and shareable links.
+What if a simple birthday wish could become a beautiful, personalized digital experience?
 
-## Run locally
+That idea inspired me to build **Wishora — Your Feelings. Your Story. Their Special Day.**
 
-1. Install [Node.js LTS](https://nodejs.org/) if it is not already installed.
-2. Extract this ZIP and open the `wishora` folder in VS Code.
-3. Open Terminal → New Terminal and run:
+Wishora is a birthday website builder that lets users create personalized birthday experiences for their friends, partners, siblings, and loved ones.
 
-```bash
-npm install
-npm run dev
-```
+✨ **What can you do with Wishora?**
+- 🎨 Choose from six unique visual themes
+- 💌 Personalize birthday messages and recipient details
+- 👀 Preview your creation before sharing
+- 🎁 Add a surprise reveal experience
+- 🔗 Generate shareable birthday links
+- 📱 Enjoy a responsive interface across devices
 
-4. Open the local URL shown in the terminal (usually `http://localhost:3000`).
+🛠️ **Tech Stack:** Next.js, React, TypeScript, CSS, Lucide React, and Vercel.
 
-## Deploy to Vercel
+🚀 **Try the live demo:**  
+https://wishora-birthday-builder.vercel.app/
 
-### Option A — GitHub (recommended)
-1. Create a new GitHub repository.
-2. Upload/push all files inside this folder.
-3. In Vercel, choose **Add New → Project** and import that repository.
-4. Keep the default Next.js settings and click **Deploy**.
+💻 **Explore the source code on GitHub:**  
+https://github.com/Muhtasim-Masum-Hasnayen/wishora
 
-### Option B — Vercel CLI
-```bash
-npm install
-npm run build
-npx vercel
-```
+Building Wishora has been an opportunity to practice frontend development, UI design, responsive layouts, and deployment while turning a simple idea into a working web project.
 
-## Included features
-- 10 relationship categories: male friend, female friend, boyfriend, girlfriend, male/female best friend, brother, sister, husband and wife.
-- Theme presets with relationship-specific colors and visual treatments.
-- Live preview while editing.
-- Personal message, sender name, birthday person's name, memory note and photo upload.
-- Surprise reveal screen, animated hearts/stars/confetti-style decorations.
-- Copy/share link using a URL-encoded payload, including an uploaded and compressed photo.
-- Save draft in browser localStorage.
-- Download a simple text version of the wish.
-- Responsive layout for mobile, tablet and desktop.
+This is another step in my journey of learning, building, and improving through real-world projects. Feedback and suggestions are always welcome!
 
-## Important MVP note
-This starter is intentionally backend-free so it can be deployed to Vercel without setting up a database. Drafts are saved in the current browser only. Uploaded photos are compressed in the browser and included in the share URL; published wishes are encoded into that URL, so avoid putting sensitive/private information in a public link. For a production platform, add a database and object storage (e.g. Supabase) to support persistent short links, accounts, larger image uploads and moderation.
-
-## Customize
-- Main page and logic: `app/page.tsx`
-- Global styles: `app/globals.css`
-- App metadata: `app/layout.tsx`
+#Wishora #WebDevelopment #NextJS #ReactJS #TypeScript #FrontendDevelopment #BuildInPublic #Vercel
