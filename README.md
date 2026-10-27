@@ -1,6 +1,6 @@
 # 🎂 Wishora — Birthday Website Builder
 <p align="center">
-  <img src="./wishora.gif" alt="Wishora — Birthday Website Builder Demo" width="900" />
+  <img src="./wishora.gif" alt="Wishora — Birthday Website Builder Demo" width="400" />
 </p>
 <p align="center">
   <strong>Your Feelings. Your Story. Their Special Day.</strong>
